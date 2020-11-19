@@ -1,6 +1,6 @@
 # eDEX-Hardware monitor 
 
-___this is an opensource hadware monitoring app based on the eDEX-UI opensource project, please give them credit for the wide majority of the work.___
+___this is an opensource hardware monitoring app based on the eDEX-UI opensource project, please give them credit for the wide majority of the work.___
 
 Please checkout the original creator at [here](https://github.com/GitSquared)
 
