@@ -1,0 +1,10 @@
+#!/bin/bash
+
+mocha \
+  --check-leaks \
+  --bail \
+  --grep ${npm_config_grep:-''} \
+  --recursive \
+  --timeout 1s \
+  --inline-diffs \
+  test

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Security-Policy" content="default-src file: 'unsafe-inline'; img-src file: data:; media-src file:; connect-src ws: file:">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>eDEX-UI</title>
+
+        <!-- Load dependency css -->
+        <link rel="stylesheet" href="node_modules/augmented-ui/augmented.css" />
+        <!-- Load main css -->
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="assets/css/modal.css" />
+        <link rel="stylesheet" href="assets/css/boot_screen.css" />
+        <!-- Load main modules css -->
+        <link rel="stylesheet" href="assets/css/main_shell.css" />
+        <link rel="stylesheet" href="assets/css/filesystem.css" />
+        <link rel="stylesheet" href="assets/css/keyboard.css" />
+        <!-- Load secondary modules css -->
+        <link rel="stylesheet" href="assets/css/mod_column.css" />
+        <link rel="stylesheet" href="assets/css/mod_clock.css" />
+        <link rel="stylesheet" href="assets/css/mod_sysinfo.css" />
+        <link rel="stylesheet" href="assets/css/mod_hardwareInspector.css" />
+        <link rel="stylesheet" href="assets/css/mod_cpuinfo.css" />
+        <link rel="stylesheet" href="assets/css/mod_netstat.css" />
+        <link rel="stylesheet" href="assets/css/mod_conninfo.css" />
+        <link rel="stylesheet" href="assets/css/mod_globe.css" />
+        <link rel="stylesheet" href="assets/css/mod_ramwatcher.css" />
+        <link rel="stylesheet" href="assets/css/mod_toplist.css" />
+        <link rel="stylesheet" href="assets/css/mod_fuzzyFinder.css" />
+        <!-- Load extra CSS -->
+        <link rel="stylesheet" href="assets/css/extra_ratios.css" />
+
+        <!-- Load main modules classes -->
+        <script src="classes/modal.class.js"></script>
+        <script src="classes/updateChecker.class.js"></script>
+        <!-- Load secondary modules classes -->
+        <script src="classes/clock.class.js"></script>
+        <script src="classes/sysinfo.class.js"></script>
+        <script src="classes/hardwareInspector.class.js"></script>
+        <script src="classes/cpuinfo.class.js"></script>
+        <script src="classes/netstat.class.js"></script>
+        <script src="classes/conninfo.class.js"></script>
+        <script src="classes/locationGlobe.class.js"></script>
+        <script src="classes/ramwatcher.class.js"></script>
+        <script src="classes/toplist.class.js"></script>
+        <script src="classes/fuzzyFinder.class.js"></script>
+        <!-- Load extra classes -->
+        <script src="classes/audiofx.class.js"></script>
+    </head>
+    <body class="solidBackground">
+        <section id="boot_screen">
+        </section>
+
+        <script src="_renderer.js"></script>
+    </body>
+</html>
