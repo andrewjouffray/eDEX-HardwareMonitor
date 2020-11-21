@@ -4,6 +4,12 @@ ___this is an opensource hardware monitoring app based on the eDEX-UI opensource
 
 Please checkout the original creator at [here](https://github.com/GitSquared)
 
+### checkout the new cyberpunk theme
+
+![screenshot-cyber](media/cyber-screenshot.png "Cyberpunk Theme")
+
+
+The theme file should be called cyber.json and cyber-inv.json
 
 ![screenshot1](media/edex-screenshot.png "Interstellar Theme")
 
